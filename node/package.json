@@ -1,0 +1,19 @@
+{
+  "name": "notificacoes",
+  "version": "1.0.0",
+  "description": "Sockets para notificacoes dinamicas",
+  "main": "sockets.js",
+  "dependencies": {
+    "socket.io": "^1.4.5",
+    "redis": "^0.8.2",
+    "locutus": "^2.0.3"
+  },
+  "devDependencies": {
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sockets.js"
+  },
+  "author": "glaucomonteiro",
+  "license": "ISC"
+}
